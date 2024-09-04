@@ -1,0 +1,30 @@
+.logo img{
+    width: 100px;
+   cursor: pointer;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1280px;
+    margin: 0 auto;
+    height: 72px;
+    align-items: center;
+    background-color: aqua;
+
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 24px;
+}
+.navbutton{
+    all: unset;
+    padding: 4px 16px;
+    background: red;
+    height: 32px;
+    color: white;
+    font-weight: 500;
+    border-radius: 30px;
+    width: 50px;
+    text-align: center;
+}
